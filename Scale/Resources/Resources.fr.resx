@@ -118,26 +118,26 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="CommandLineFormat" xml:space="preserve">
-    <value>Formato:
-Scale minor principio
-Scale major principio
+    <value>Format:
+Scale minor début
+Scale major début
 Scale /?
 
-minor  Esto especifica un tono menor.
-major  Esto especifica un tono mayor.
-principio  Este es un número entero positivo de la frecuencia de arranque en hertz.
-/?     Imprime esta pantalla.</value>
+minor  Ceci indique une tonalité mineure.
+major  Ceci indique une tonalité majeure.
+début  Ceci est un nombre entier positif de la fréquence de départ dans hertz.
+/?     Cette imprime cet écran.</value>
   </data>
   <data name="IncorrectScaleType" xml:space="preserve">
-    <value>{0} no es minor o major.</value>
+    <value>{0} est pas minor ou major.</value>
   </data>
   <data name="NotAnInteger" xml:space="preserve">
-    <value>{0} no es un entero.</value>
+    <value>{0} est pas un entier.</value>
   </data>
   <data name="NotInRange" xml:space="preserve">
-    <value>{0} no es entre {1} y {2}, ambos inclusive.</value>
+    <value>{0} est pas entre {1} et {2} inclusivement.</value>
   </data>
   <data name="WrongNumberOfArguments" xml:space="preserve">
-    <value>Debe tener dos argumentos.</value>
+    <value>Il doit avoir deux paramètres.</value>
   </data>
 </root>

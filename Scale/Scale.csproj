@@ -79,6 +79,9 @@
     <None Include="ScaleKeyFile.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Resources\Resources.fr.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
     <EmbeddedResource Include="Resources\Resources.en.resx">
       <SubType>Designer</SubType>
     </EmbeddedResource>

@@ -8,6 +8,7 @@ Pull requests and issues are welcome, as long as they are relevant, especially p
 #### Currently supported languages:
 English - Full support  
 Spanish - Full support  
+French - Full support  
 You can help to add or fix a language by forking the repository, adding or fixing `Scale\Resources\Resources.CULTURE.resx`, where CULTURE is a string such as `en` or `en-US`, and submitting a pull request.  I use Microsoft Visual Studio to edit these, but you can use whatever you want.  
 ## Version history:
 None, yet.
