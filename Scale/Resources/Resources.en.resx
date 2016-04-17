@@ -119,17 +119,35 @@
   </resheader>
   <data name="CommandLineFormat" xml:space="preserve">
     <value>Format:
-Scale minor start
-Scale major start
+Scale type start
 Scale /?
 
-minor  This specifies a minor key.
-major  This specifies a major key.
+type   This specifies the type of key.
 start  This is a positive integer of the starting frequency in hertz.
-/?     This prints this screen.</value>
+/?     This prints this screen.
+
+Types:
+major / ionian
+           C  D  E  F  G  A  B  C
+minor / aeolian
+           C  D  Eb F  G  Ab Bb C
+dorian     C  D  Eb F  G  A  Bb C
+phrygian   C  Db Eb F  G  Ab Bb C
+lydian     C  D  E  F# G  A  B  C
+mixolydian C  D  E  F  G  A  Bb C
+locrian    C  Db Eb F  Gb Ab Bb C
+whole tone C  D  E  F# G# A# C
+harmonic minor
+           C  D  Eb F  G  Ab B  C
+melodic minor
+           C  D  Eb F  G  A  B  C  Bb Ab G  F  Eb D  C
+pentatonic C  D  E  G  A  C
+minor pentatonic
+           C  Eb F  G  Bb  C
+blues      C  Eb F  Gb G  Bb C</value>
   </data>
   <data name="IncorrectScaleType" xml:space="preserve">
-    <value>{0} is not minor or major.</value>
+    <value>{0} is not a recognized type of scale.</value>
   </data>
   <data name="NotAnInteger" xml:space="preserve">
     <value>{0} is not an integer.</value>

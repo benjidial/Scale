@@ -118,24 +118,43 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="CommandLineFormat" xml:space="preserve">
-    <value>Format:
-Scale minor début
-Scale major début
+    <value>Le Format:
+Scale type début
+Scale type début
 Scale /?
 
-minor  Ceci indique une tonalité mineure.
-major  Ceci indique une tonalité majeure.
+type  Ceci indique le type de clé.
 début  Ceci est un nombre entier positif de la fréquence de départ dans hertz.
-/?     Cette imprime cet écran.</value>
+/?     Cette imprime cet écran.
+
+Les Types:
+major / ionian
+           C  D  E  F  G  A  B  C
+minor / aeolian
+           C  D  Eb F  G  Ab Bb C
+dorian     C  D  Eb F  G  A  Bb C
+phrygian   C  Db Eb F  G  Ab Bb C
+lydian     C  D  E  F# G  A  B  C
+mixolydian C  D  E  F  G  A  Bb C
+locrian    C  Db Eb F  Gb Ab Bb C
+whole tone C  D  E  F# G# A# C
+harmonic minor
+           C  D  Eb F  G  Ab B  C
+melodic minor
+           C  D  Eb F  G  A  B  C  Bb Ab G  F  Eb D  C
+pentatonic C  D  E  G  A  C
+minor pentatonic
+           C  Eb F  G  Bb  C
+blues      C  Eb F  Gb G  Bb C</value>
   </data>
   <data name="IncorrectScaleType" xml:space="preserve">
-    <value>{0} est pas minor ou major.</value>
+    <value>{0} n'est pas un type de clé reconnu</value>
   </data>
   <data name="NotAnInteger" xml:space="preserve">
-    <value>{0} est pas un entier.</value>
+    <value>{0} n'est pas un entier.</value>
   </data>
   <data name="NotInRange" xml:space="preserve">
-    <value>{0} est pas entre {1} et {2} inclusivement.</value>
+    <value>{0} n'est pas entre {1} et {2} inclusivement.</value>
   </data>
   <data name="WrongNumberOfArguments" xml:space="preserve">
     <value>Il doit avoir deux paramètres.</value>

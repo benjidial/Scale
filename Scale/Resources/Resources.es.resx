@@ -119,17 +119,36 @@
   </resheader>
   <data name="CommandLineFormat" xml:space="preserve">
     <value>Formato:
-Scale minor principio
-Scale major principio
+Scale tipo principio
+Scale tipo principio
 Scale /?
 
-minor  Esto especifica un tono menor.
-major  Esto especifica un tono mayor.
+tipo  Esto especifica el tipo de clave.
 principio  Este es un número entero positivo de la frecuencia de arranque en hertz.
-/?     Imprime esta pantalla.</value>
+/?     Imprime esta pantalla.
+
+Tipos:
+major / ionian
+           C  D  E  F  G  A  B  C
+minor / aeolian
+           C  D  Eb F  G  Ab Bb C
+dorian     C  D  Eb F  G  A  Bb C
+phrygian   C  Db Eb F  G  Ab Bb C
+lydian     C  D  E  F# G  A  B  C
+mixolydian C  D  E  F  G  A  Bb C
+locrian    C  Db Eb F  Gb Ab Bb C
+whole tone C  D  E  F# G# A# C
+harmonic minor
+           C  D  Eb F  G  Ab B  C
+melodic minor
+           C  D  Eb F  G  A  B  C  Bb Ab G  F  Eb D  C
+pentatonic C  D  E  G  A  C
+minor pentatonic
+           C  Eb F  G  Bb  C
+blues      C  Eb F  Gb G  Bb C</value>
   </data>
   <data name="IncorrectScaleType" xml:space="preserve">
-    <value>{0} no es minor o major.</value>
+    <value>{0} no es un tipo reconocido de la escala.</value>
   </data>
   <data name="NotAnInteger" xml:space="preserve">
     <value>{0} no es un entero.</value>
